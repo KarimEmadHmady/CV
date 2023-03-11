@@ -12626,7 +12626,7 @@ i.big {
     box-shadow: 1px 2px 30px #CF1F1F;
 }
 
-.owl-carousel {
+.owl-carouse {
     position: relative;
     margin-top: -5px;
     bottom: -5px;
@@ -12648,11 +12648,11 @@ i.big {
     color: #ffffff;
 }
 
-.owl-carousel.owl-center .owl-stage-outer {
+.owl-carouse.owl-center .owl-stage-outer {
     padding: 3% 0;
 }
 
-.owl-carousel.owl-center .owl-item.active.center {
+.owl-carouse.owl-center .owl-item.active.center {
     position: relative;
     z-index: 101;
     -webkit-transform: scale(1.2);
@@ -12662,12 +12662,12 @@ i.big {
     box-shadow: 8px 8px 10px 0px rgba(0, 0, 0, 0.calc());
 }
 
-.rtl .owl-carousel,
+.rtl .owl-carouse,
 .rtl .bx-wrapper {
     direction: ltr;
 }
 
-.rtl .owl-carousel .owl-item {
+.rtl .owl-carouse .owl-item {
     direction: rtl;
 }
 
@@ -18478,15 +18478,7 @@ img {
 }
 
 .button:nth-child(5):hover .icon {
-    background: #c8232c;
-}
-
-.button:nth-child(6):hover .icon {
     background: #333;
-}
-
-.button:nth-child(7):hover .icon {
-    background: #7289da;
 }
 
 
@@ -18508,16 +18500,10 @@ img {
 }
 
 .button:nth-child(5) span {
-    color: #c8232c;
-}
-
-.button:nth-child(6) span {
     color: #333;
 }
 
-.button:nth-child(7) span {
-    color: #7289da;
-}
+
 
 
 
