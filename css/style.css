@@ -18480,6 +18480,9 @@ img {
 .button:nth-child(5):hover .icon {
     background: #333;
 }
+.button:nth-child(6):hover .icon {
+    background: #0dc041;
+}
 
 
 
@@ -18501,6 +18504,9 @@ img {
 
 .button:nth-child(5) span {
     color: #333;
+}
+.button:nth-child(6) span {
+    color: #0dc041;
 }
 
 
