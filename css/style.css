@@ -43,6 +43,7 @@ body {
     padding: 0;
     line-height: 1.8em;
     word-spacing: 0px;
+    cursor: url("../images/body-mous.png") , pointer;
 }
 
 html.no-scroll,
