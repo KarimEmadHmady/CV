@@ -10525,6 +10525,12 @@ a:hover,
     background-size: cover;
     border-radius: 8px;
 }
+    .the-content .img-box.img-box7 {
+        background: url(../images/gallery/B99.png);
+        background-size: cover;
+        border-radius: 8px;
+    }
+    
 
 .the-content .img-box h4 {
     opacity: .4;
