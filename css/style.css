@@ -10503,7 +10503,7 @@ a:hover,
 }
 
 .the-content .img-box.img-box3 {
-    background: url(../images/gallery/6.png);
+    background: url(../images/gallery/214.png);
     background-size: cover;
     border-radius: 8px;
 }
@@ -10525,11 +10525,18 @@ a:hover,
     background-size: cover;
     border-radius: 8px;
 }
-    .the-content .img-box.img-box7 {
+
+.the-content .img-box.img-box7 {
         background: url(../images/gallery/B99.png);
         background-size: cover;
         border-radius: 8px;
-    }
+}
+
+.the-content .img-box.img-box8 {
+        background: url(../images/gallery/215.png);
+        background-size: cover;
+        border-radius: 8px;
+}
     
 
 .the-content .img-box h4 {
@@ -18571,3 +18578,141 @@ text-align: center;
     cursor: url("../images/hover.png") , pointer;
     filter: grayscale(0);
 }
+
+
+/* hover imge start  */
+.sec-2 {
+    padding: 80px;
+    background-color: #fff;
+    overflow-x: hidden;
+  }
+  
+  /* :nth-child() */
+  .projects-list__hover1 {
+    background-image: url("../images/gallery/sc1.JPG");
+    background-position: 100%;
+    background-size: cover;
+  }
+  
+  .projects-list__hover2 {
+    background-image: url("../images/gallery/sc2.JPG");
+    background-position: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .projects-list__hover3 {
+    background-image: url("../images/gallery/sc3.JPG");
+    background-position: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .projects-list__hover4 {
+    background-image: url("../images/gallery/sc4.JPG");
+    background-position: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .projects-list__hover5 {
+    background-image: url("../images/gallery/sc5.JPG");
+    background-position: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .projects-list__hover6 {
+    background-image: url("../images/gallery/sc6.JPG");
+    background-position: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .projects-list__hover7 {
+    background-image: url("../images/gallery/sc7.JPG");
+    background-position: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .projects-list__hover8 {
+    background-image: url("../images/gallery/sc8.JPG");
+    background-position: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .projects-list__hover9 {
+    background-image: url("../images/gallery/sc9.JPG");
+    background-position: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .projects-list__hover10 {
+    background-image: url("../images/gallery/sc5.JPG");
+    background-position: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .content-marquee__original > *,
+  .content-marquee__copy > * {
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
+  
+  .content-marquee__copy {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .content-marquee {
+    position: relative;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-animation: 14s marquee linear infinite;
+    animation: 14s marquee linear infinite;
+    white-space: nowrap;
+    --speed: 10s;
+  }
+  
+  @-webkit-keyframes marquee {
+    0% {
+      -webkit-transform: translateX(0) translateZ(0);
+      transform: translateX(0) translateZ(0);
+    }
+  
+    100% {
+      -webkit-transform: translateX(-100%) translateZ(0);
+      transform: translateX(-100%) translateZ(0);
+    }
+  }
+  
+  .content-marquee.has-stopable:hover {
+    -webkit-animation-play-state: paused;
+    animation-play-state: paused;
+  }
+  
+  .js-projects-img,
+  .vlt-stroke-text--lg {
+    width: 270px;
+    height: 150px;
+    background-color: #fff;
+  }
+  @media (max-width: 700px){
+    .js-projects-img,
+    .vlt-stroke-text--lg {
+      width: 180px;
+      height: 100px;
+      background-color: #fff;
+    }
+  }
+  
+/* hover imge end  */
