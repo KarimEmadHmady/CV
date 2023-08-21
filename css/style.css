@@ -18866,3 +18866,59 @@ text-align: center;
         width: 95%;
     }
   }
+
+
+  /* add button CV */
+
+  .bttn-CV{
+    position: relative;
+    margin: 15px 35px;
+    border-radius: 50px;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    padding: 16px 11px ;
+    background: #2f3134;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    
+    cursor: pointer;
+    transition: background 0.5s;
+  }
+  
+  .bttn-CV:hover{
+    background: linear-gradient(90deg, #000, #c01f1f, #000, #000);
+    background-size: 400%;
+  }
+  .bttn-CV:before
+  {
+    content: '';
+    position: absolute;
+    background: inherit;
+    top: -5px;
+    right: -5px;
+    bottom: -5px;
+    left: -5px;
+    border-radius: 50px;
+    filter: blur(20px);
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+  .bttn-CV:hover:before{
+    opacity: 1;
+    z-index: -1;
+  }
+  .bttn-CV:hover{
+    z-index: 1;
+    animation: glow 8s linear infinite;
+  }
+  @keyframes glow {
+    0%{
+      background-position: 0%;
+    }
+    100%{
+      background-position: 400%;
+    }
+  }
