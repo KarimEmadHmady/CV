@@ -6948,18 +6948,21 @@ i.font60 {
     right: 0;
 }
 
+
+
 .circle canvas {
     vertical-align: middle;
 }
 
-.circle div {
+.circle img {
     position: absolute;
-    top: 80px;
-    left: 0;
-    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* width: 100%; */
     text-align: center;
-    line-height: 40px;
-    color: #202020;
+    /* line-height: 40px; */
+    /* color: #202020; */
 }
 
 .dark-scheme .circle div {
@@ -10491,7 +10494,7 @@ a:hover,
 }
 
 .the-content .img-box.img-box1 {
-    background: url(../images/gallery/99.png);
+    background: url(../images/gallery/A6.png);
     background-size: cover;
     border-radius: 8px;
 }
@@ -10515,7 +10518,7 @@ a:hover,
 }
 
 .the-content .img-box.img-box5 {
-    background: url(../images/gallery/3.png);
+    background: url(../images/gallery/A8.png);
     background-size: cover;
     border-radius: 8px;
 }
@@ -18657,6 +18660,20 @@ text-align: center;
     background-size: cover;
     background-repeat: no-repeat;
   }
+
+  .projects-list__hover11 {
+    background-image: url("../images/gallery/mai.JPG");
+    background-position: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .projects-list__hover12 {
+    background-image: url("../images/gallery/abdo.JPG");
+    background-position: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
   
   .content-marquee__original > *,
   .content-marquee__copy > * {
@@ -18891,6 +18908,7 @@ text-align: center;
   .bttn-CV:hover{
     background: linear-gradient(90deg, #000, #c01f1f, #000, #000);
     background-size: 400%;
+    color:#FFF;
   }
   .bttn-CV:before
   {
